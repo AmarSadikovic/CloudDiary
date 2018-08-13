@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Cloud Diary </title>
+
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+
+	<ul class="nav nav-tabs">
+		<li role="presentation"><a href="listPosts.php">Home</a></li>
+		<li role="presentation"><a href="../newpost.html">New post</a></li>
+		<li role="presentation"><a href="../../login/index.html">Logout</a></li>
+	</ul>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8">
+				<div class="the post">
+					<h2>---$title---</h2>
+					<br>
+					<br>
+					<p id="messageOutput">---$message---</p>
+				</div>
+				<form action="deletePost.php" method="POST" role="form">
+					<input type="hidden" class="form-control" value="---$id---" name="id"> 
+					<button type="submit" id="submit" name="submit" class="btn btn-danger">Delete</button>			
+				</form>
+			</div>
+			
+		</div>
+	</div>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

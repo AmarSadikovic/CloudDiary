@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Cloud Diary </title>
+  <link rel="stylesheet" type="text/css" href="../login/css/login.css">
+</head>
+<body>
+ <!-- This is a very simple parallax effect achieved by simple CSS 3 multiple backgrounds, made by http://twitter.com/msurguy -->
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4">
+      <div class="account-wall">
+        <h1 class="text-center login-title">Reclaim lost password</h1>
+        <form action="php/forgot.php" method="POST" class="form-signin">
+          <input type="mail" name="mail" class="form-control" placeholder="Email" required autofocus>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">
+          Send</button>
+        </form>
+        <a href="../login/index.html" class="text-center new-account">Back to login page </a>
+      </div>
+      <h2> Information </h2>
+      <p> If you've forgot your password you can have it sent to you to your email you provide above. If this doesn't work you need to contact
+        support. 
+      </p>
+      <p>Please make sure that you actually have a registered account and that you have activated it through the activation email you have been sent.</p>
+    </div>
+  </div>
+</div>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
