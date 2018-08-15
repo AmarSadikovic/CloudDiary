@@ -15,6 +15,11 @@
 - Create a local DataBase through the documentations provided
 - Change settings on Xampp so it can send mail
 - Start a local Database and run the index file.
+
+## Language
+
+- PHP (Vanilla)
+- HTML/CSS
   
 ## Disclaimer
 
